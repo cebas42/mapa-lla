@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  apache:
+    image: httpd:latest
+    container_name: lla-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ../htdocs:/usr/local/apache2/htdocs
