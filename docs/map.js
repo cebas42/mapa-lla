@@ -61,7 +61,7 @@ layerControl.addTo(map);
 
 const markerOptions = {
 	icon: L.icon({
-		iconUrl: "/img/school2.png",
+		iconUrl: "img/school2.png",
 		iconSize: [24, 24],
 		iconAnchor: [12, 32],
 		popupAnchor: [1, -32],
