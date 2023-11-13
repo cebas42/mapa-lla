@@ -26,8 +26,7 @@ for (i = 0; i < ngroups; i++) {
 }
 markerGroup.addTo(map);
 
-const url = "/data/final_dataframe_for_60_12_y_55_6_colegios.geojson";
-
+const url = "data/final_dataframe_for_60_12_y_55_6_colegios.geojson";
 
 const layerControl = L.control.layers(null, null, {collapsed: false});
 for (i = 0; i < ngroups; i++) {
